@@ -1,6 +1,11 @@
-spring:
-  application:
-    name: eurka-server
 server:
-  port: 8761
+  port: 8881
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888/
+      profile: dev
+      label: master
+  application:
+    name: config-client
 foo: test config success
