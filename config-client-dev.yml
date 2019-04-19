@@ -3,3 +3,4 @@ spring:
     name: eurka-server
 server:
   port: 8761
+foo: test config success
