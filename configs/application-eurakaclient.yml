@@ -4,4 +4,4 @@ eureka:
   client:
     service-url:
       defaultZone: http://129.204.207.18:8761/eureka/
-foo:test message 2
+foo: test message 2
