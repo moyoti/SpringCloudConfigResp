@@ -3,7 +3,7 @@ server:
 spring:
   cloud:
     config:
-      uri: http://localhost:8888/
+      uri: http://129.204.207.18:8888/
       profile: dev
       label: master
   application:
